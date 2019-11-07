@@ -23,6 +23,6 @@ mkdir(out_path)
 
 # process the specified file
 if args.sample:
-    process_file(args.sample, out_path)
+    process_file(args.sample, args.template, out_path)
 
 # record and process sound
